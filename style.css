@@ -152,6 +152,7 @@ body {
   position: absolute;
   right: 50px;
   top: 25px;
+  object-fit: cover;
 }
 
 .container .second__model, .container .tird__model, .container .four__model, .container .five__model, .container .six__model {
@@ -235,6 +236,7 @@ body {
   box-shadow: 50px 24px 0px -9px rgba(92, 75, 68, 0.75);
   -webkit-box-shadow: 39px 24px 0px -9px rgba(92, 75, 68, 0.75);
   -moz-box-shadow: 39px 24px 0px -9px rgba(92, 75, 68, 0.75);
+  object-fit: cover;
 }
 
 .container .four__model .four__text {
@@ -271,6 +273,7 @@ body {
   box-shadow: -30px -24px 0px -9px rgba(237, 235, 235, 0.75);
   -webkit-box-shadow: -30px -24px 0px -9px rgba(237, 235, 235, 0.75);
   -moz-box-shadow: -30px -24px 0px -9px rgba(237, 235, 235, 0.75);
+  object-fit: cover;
 }
 
 .container .five__model .five__text {
@@ -307,6 +310,7 @@ body {
   box-shadow: 50px 24px 0px -9px #000000;
   -webkit-box-shadow: 39px 24px 0px -9px #000000;
   -moz-box-shadow: 39px 24px 0px -9px #000000;
+  object-fit: cover;
 }
 
 .container .six__model .six__text {
@@ -343,6 +347,7 @@ body {
   box-shadow: -30px -24px 0px -9px #3c332f;
   -webkit-box-shadow: -30px -24px 0px -9px #3c332f;
   -moz-box-shadow: -30px -24px 0px -9px #3c332f;
+  object-fit: cover;
 }
 
 .container .footer {
