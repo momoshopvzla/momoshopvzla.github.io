@@ -1,0 +1,520 @@
+$opacity: #000000a9
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    scroll-behavior: smooth
+
+body
+    
+    font-family: 'Roboto', sans-serif
+    overflow-x: hidden
+    
+    
+.container
+    width: auto
+    height: 100vh
+    hr
+        width: 50%
+        background-color: #000
+        height: 5px
+        margin: 10px auto
+    .presentation
+        width: 35%
+        padding: 20px
+        height: 100vh
+        position: fixed
+        z-index: 1000
+        color: #fff
+        background: url('background.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        display: flex
+        align-items: center
+        &::before
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            width: 100%
+            height: 100vh
+            background-color: $opacity
+        .presentation__text
+            width: 90%
+            height: auto
+            margin: 0 auto
+            text-align: center
+            position: relative
+            z-index: 10
+            img
+                width: 80%
+            h2
+                font-size: 40px
+                margin-bottom: 10px
+            h3
+                font-size: 20px
+                font-weight: 400
+                span
+                    font-weight: 800
+            .text--colors
+                margin-top: 40px
+                font-size: 25px
+                text-align: start
+            ul
+                text-align: start
+                li
+                    font-size: 20px    
+        .presentation__icons
+            display: block
+            position: absolute
+            bottom: 20px
+            right: 20px
+            a
+                color: #fff
+                font-size: 25px
+                padding-left: 10px
+    .first__model
+        position: relative
+        left: 35vw
+        width: 65%
+        display: flex
+        align-items: center
+        .first__text
+            width: 50%
+            padding: 0 20px
+            text-align: center
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #fff
+                background:  #70615e 
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                i
+                    
+        .first__img
+            position: relative
+            width: 50%
+            height: 100vh
+            background:    #70615e 
+            img
+                width: 30vw
+                height: 90vh
+                position: absolute
+                right: 50px
+                top: 25px
+    .second__model, .tird__model, .four__model, .five__model, .six__model
+        position: relative
+        width: 65%
+        left: 35vw
+        display: flex
+        margin-top: 40px
+        padding-bottom: 20px
+        
+        .second__text
+            width: 50%
+            padding: 0 20px
+            text-align: center
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #000
+                background: #edebeb 
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                i
+                    
+        .second__img
+            position: relative
+            width: 50%
+            img
+                height: 100%
+                width: 70%
+                position: absolute
+                left: 50px
+                box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+                -webkit-box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+                -moz-box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+
+    .tird__model
+        .tird__text
+            width: 50%
+            padding: 0 20px
+            text-align: center
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #fff
+                background: #5c4b44 
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                            
+        .tird__img
+            position: relative
+            width: 50%
+            img
+                height: 100%
+                width: 70%
+                position: absolute
+                left: 50px
+                box-shadow: 50px 24px 0px -9px rgba(92,75,68,0.75)
+                -webkit-box-shadow: 39px 24px 0px -9px rgba(92,75,68,0.75)
+                -moz-box-shadow: 39px 24px 0px -9px rgba(92,75,68,0.75)
+    .four__model
+        .four__text
+            width: 50%
+            padding: 0 20px
+            text-align: center            
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #000
+                background: #cbcfd0
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                            
+        .four__img
+            position: relative
+            width: 50%
+            img
+                height: 100%
+                width: 70%
+                position: absolute
+                left: 50px
+                box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+                -webkit-box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+                -moz-box-shadow: -30px -24px 0px -9px rgba(237,235,235,0.75)
+    .five__model
+        .five__text
+            width: 50%
+            padding: 0 20px
+            text-align: center
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #fff
+                background: #000
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                            
+        .five__img
+            position: relative
+            width: 50%
+            img
+                height: 100%
+                width: 70%
+                position: absolute
+                left: 50px
+                box-shadow: 50px 24px 0px -9px #000000
+                -webkit-box-shadow: 39px 24px 0px -9px #000000
+                -moz-box-shadow: 39px 24px 0px -9px #000000
+    .six__model
+        .six__text
+            width: 50%
+            padding: 0 20px
+            text-align: center
+            h2
+                font-size: 50px
+            a
+                text-decoration: none
+                color: #fff
+                background: #3c332f
+                padding: 20px
+                width: 60%
+                margin: 10px auto
+                border-radius: 5px
+                display: block
+                            
+        .six__img
+            position: relative
+            width: 50%
+            img
+                height: 100%
+                width: 70%
+                position: absolute
+                left: 50px
+                box-shadow: -30px -24px 0px -9px #3c332f
+                -webkit-box-shadow: -30px -24px 0px -9px #3c332f
+                -moz-box-shadow: -30px -24px 0px -9px #3c332f
+    .footer
+        position: relative
+        z-index: 20
+        width: 66%
+        left: 34vw
+        display: flex
+        margin-top: 40px
+        padding: 20px
+        background-color: #000
+        color: #fff
+        justify-content: space-between
+        a
+            color: #fff
+            text-decoration: none
+            font-weight: 800
+
+
+.cookies__banner
+    display: none
+    background-color: #fff
+    padding: 20px
+    width: calc( 100% - 40px )
+    max-width: 300px
+    line-height: 150%
+    border-radius: 10px
+    position: fixed
+    bottom: 20px
+    right: 20px
+    z-index: 1000000
+    padding-top: 40px
+    box-shadow: 0 2px 20px 10px rgba(222, 222, 222, .25)
+    text-align: center
+    .cookie__img
+        max-width: 100px
+        position: absolute
+        top: -50px
+        left: calc( 50% - 50px )
+    .cookie__title
+        font-size: 25px
+        margin-top: 20px
+        color: #000
+    .cookie__text
+        color: #000
+        font-size: 18px
+        font-weight: 800
+        margin: 10px 0
+    .cookie__button
+        background-color: #000
+        color: #fff
+        width: 100%
+        padding: 10px
+        font-size: 25px
+        border: none
+        border-radius: 5px
+    .cookie__policy
+        display: block
+        padding-top: 10px
+        color: #000
+        text-decoration: none
+.cookies__banner.active
+    display: block
+.background__cookies
+    display: none
+    background-color: $opacity
+    position: fixed
+    z-index: 899
+    width: 100vw
+    height: 100vh
+    top: 0
+    left: 0
+.background__cookies.active
+    display: block
+.cookie__button:active
+    background-color: #000000cb
+
+/*Scroll to top*/
+#scroll-to-top__button
+    position: fixed
+    width: 50px
+    height: 50px
+    bottom: 20px
+    left: 20px
+    z-index: 10000
+    background-color: $opacity
+    border-radius: 50%
+    text-align: center
+    i
+        color: #fff
+        font-size: 50px
+
+#scroll-to-top__button:hover
+    cursor: pointer
+    transform: scale(1.1)
+
+.ocult
+    opacity: 0
+
+.show__scroll
+    opacity: 1
+
+/*Loader*/
+.loader-container
+    width: 100vw
+    height: 100vh
+    position: fixed
+    background-color: #000
+    display: flex
+    top: 0
+    align-items: center
+    justify-content: center
+    z-index: 10000
+    transition: .5s all
+    img
+        width: 350px
+
+@media screen and (max-width: 768px)
+    .container
+        width: 100vw
+        .presentation
+            width: 100%
+            height: 70vh
+            position: relative
+            padding: 10px
+            &::before
+                height: 70vh
+            .presentation__text
+                width: 90%
+                height: auto
+                margin: 0 auto
+                text-align: center
+                position: relative
+                z-index: 10
+                img
+                    width: 80%
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                    font-weight: 400
+                    span
+                        font-weight: 800
+                .text--colors
+                    font-size: 18px
+                ul
+                    li
+                        font-size: 15px 
+        .first__model
+            position: relative
+            left: 0
+            width: 100%
+            height: fit-content
+            .first__text
+                width: 50%
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a 
+                    padding: 15px 5px
+                    width: 80%
+                    
+            .first__img
+                width: 50%
+                height: fit-content 
+                img
+                    width: 80%
+                    height: 50vh
+                    position: relative
+                    top: 10px
+                    right: 10px
+        .second__model, .tird__model, .four__model, .five__model, .six__model
+            position: relative
+            width: 100%
+            left: 0
+            .second__text
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a 
+                    padding: 15px 5px
+                    width: 80%
+                    
+            .second__img
+                img
+                    right: 0
+        .tird__model
+            .tird__text
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a 
+                    padding: 15px 5px
+                    width: 80%
+                            
+            .tird__img
+                img
+                    left: 0
+        .four__model
+            .four__text
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a
+                    padding: 15px 5px
+                    width: 80%
+            .four__img
+                img
+                    left: 20px
+
+        .five__model
+            .five__text
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a
+                    padding: 15px 5px
+                    width: 80%
+            .five__img
+                img
+                    left: 20px
+        .six__model
+            .six__text
+                padding: 0 10px
+                h2
+                    font-size: 20px
+                h3
+                    font-size: 15px
+                a
+                    padding: 15px 5px
+                    width: 80%
+            .six__img
+                img
+                    left: 20px
+        .footer
+            position: relative
+            z-index: 20
+            width: 100%
+            left: 0
+            display: flex
+            margin-top: 40px
+            padding: 20px 10px
+            background-color: #000
+            color: #fff
+            justify-content: space-between
+            a
+                color: #fff
+                text-decoration: none
+                font-weight: 800
+    .loader-container
+        img
+            width: 300px
